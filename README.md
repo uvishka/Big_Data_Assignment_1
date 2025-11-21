@@ -41,7 +41,7 @@ To run the system, you will need two separate terminal windows open in VS Code.
 
 ### Terminal 1: Start the Producer
 
-In the second terminal, run the producer to start generating data.
+In the first terminal, run the producer to start generating data.
 
 ```bash
 python producer.py
@@ -50,7 +50,7 @@ You will see logs indicating that orders are being produced.
 
 ### Terminal 2: Start the Consumer
 
-The consumer needs to be running first (or simultaneously) to process messages.
+In the second terminal, run the consumer to simultaneously process messages.
 
 ```bash
 python consumer.py
