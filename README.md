@@ -26,27 +26,34 @@ The system consists of a **Producer** that generates mock order data and a **Con
 Run the following command to start Kafka and the Schema Registry:
 ```bash
 docker-compose up -d
-2. Install Dependencies
+```
+### 2. Install Dependencies
 
-Install the required Python libraries:
+## Install the required Python libraries:
 
-Bash
+```bash
 pip install -r requirements.txt
-How to Run
+```
+
+### 3. How to Run
+
 To run the system, you will need two separate terminal windows open in VS Code.
 
-Terminal 1: Start the Consumer
+## Terminal 1: Start the Consumer
 
 The consumer needs to be running first (or simultaneously) to process messages.
 
-Bash
+```bash
 python consumer.py
+```
+
 You will see the consumer start up and wait for messages.
 
-Terminal 2: Start the Producer
+## Terminal 2: Start the Producer
 
 In the second terminal, run the producer to start generating data.
 
-Bash
+```bash
 python producer.py
+```
 You will see logs indicating that orders are being produced.
