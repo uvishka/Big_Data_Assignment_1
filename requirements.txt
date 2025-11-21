@@ -1,0 +1,7 @@
+confluent-kafka
+fastavro
+requests
+attrs
+httpx
+jsonschema
+cachetools
