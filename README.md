@@ -1,6 +1,6 @@
 # Kafka Order Processing System
 
-This project implements a real-time order processing system using Apache Kafka and Python. It is designed to fulfill the "Big Data Assignment" requirements by demonstrating Avro serialization, real-time data aggregation, and error handling patterns.
+This project implements a real-time order processing system using Apache Kafka and Python. It is designed to fulfill the requirements by demonstrating Avro serialization, real-time data aggregation, and error handling patterns.
 
 ## Project Overview
 The system consists of a **Producer** that generates mock order data and a **Consumer** that processes these orders. It handles:
