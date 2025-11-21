@@ -29,7 +29,7 @@ docker-compose up -d
 ```
 ## 2. Install Dependencies
 
-## Install the required Python libraries:
+Install the required Python libraries:
 
 ```bash
 pip install -r requirements.txt
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 To run the system, you will need two separate terminal windows open in VS Code.
 
-## Terminal 1: Start the Consumer
+# Terminal 1: Start the Consumer
 
 The consumer needs to be running first (or simultaneously) to process messages.
 
@@ -49,7 +49,7 @@ python consumer.py
 
 You will see the consumer start up and wait for messages.
 
-## Terminal 2: Start the Producer
+# Terminal 2: Start the Producer
 
 In the second terminal, run the producer to start generating data.
 
