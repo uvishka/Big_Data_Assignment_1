@@ -22,12 +22,12 @@ The system consists of a **Producer** that generates mock order data and a **Con
 
 ## Setup Instructions
 
-### 1. Start Infrastructure
+## 1. Start Infrastructure
 Run the following command to start Kafka and the Schema Registry:
 ```bash
 docker-compose up -d
 ```
-### 2. Install Dependencies
+## 2. Install Dependencies
 
 ## Install the required Python libraries:
 
@@ -35,7 +35,7 @@ docker-compose up -d
 pip install -r requirements.txt
 ```
 
-### 3. How to Run
+## 3. How to Run
 
 To run the system, you will need two separate terminal windows open in VS Code.
 
